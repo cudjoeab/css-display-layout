@@ -1,7 +1,12 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
 header {
+    font: 'Roboto';
     box-sizing: border-box;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     background-color: #000000;
     color: #ffffff;
@@ -40,6 +45,7 @@ li {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
 
 .photo-count-descr{
@@ -68,11 +74,16 @@ li {
     color: white; 
 }
 footer {
-    /*font-family:
-    font: */
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+    font: 'Raleway';
+    font-size: 12px;
     color: #ffffff;
     background-color: #000000; 
     text-align: center;
     height: 30px; 
+    padding: 2px;
+    align-content: center;
+    
 
 }
