@@ -46,6 +46,8 @@ li {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    width: 85%; 
+    margin: 0 auto; 
 }
 
 .photo-count-descr{
@@ -65,7 +67,11 @@ li {
 
 .photo{
     display: inline-block;
+    width: 24%;
+}
 
+.photo img {
+    width: 100%; 
 }
 
 .editor{
